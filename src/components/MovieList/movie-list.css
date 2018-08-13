@@ -1,0 +1,25 @@
+.component-movie-list {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.component-movie-list .loader {
+  font-size: 14px;
+  text-align: center;
+  padding: 25px;
+  color: #ccc;
+}
+
+.component-movie-list .loader img,
+.component-movie-list .loader span {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.component-movie-list .loader img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+

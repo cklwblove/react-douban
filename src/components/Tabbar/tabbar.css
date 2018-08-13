@@ -1,0 +1,55 @@
+.tab {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  color: #cecece;
+  border-top: 1px solid #ececec;
+  background: #fff;
+}
+
+.tab .tab-item {
+  width: 50%;
+  font-size: 12px;
+}
+
+.tab .nav-link {
+  text-align: center;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tab .nav-link.active {
+  color: #333;
+}
+
+.tab .icon {
+  width: 22px;
+  height: 22px;
+  padding-bottom: 2px;
+  margin: 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tab .icon-home {
+  background-image: url('./home.png');
+}
+
+.tab .nav-link.active .icon-home {
+  background-image: url('./home-actived.png');
+}
+
+.tab .icon-search {
+  background-image: url('./search.png');
+}
+
+.tab .nav-link.active .icon-search {
+  background-image: url('./search-actived.png');
+}

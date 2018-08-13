@@ -1,0 +1,98 @@
+.container.page-board {
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+.slide {
+  width: 100%;
+  height: 240px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slide .swiper-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.board {
+  box-sizing: border-box;
+  background-color: #f8f9fb;
+  width: 100%;
+}
+.board-item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.board-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.board-item .title {
+  display: flex;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.board-item .title span {
+  flex: 1;
+  padding-left: 5px;
+}
+
+.board-item .icon-arrow {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
+.board-item .content {
+  overflow: hidden;
+}
+
+.board-item .content .inner {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.board-item .content .inner::-webkit-scrollbar {
+  display: none;
+}
+
+.board-item .content .inner a {
+  display: block;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  margin: 5px;
+}
+
+.movie-item image {
+  width: 9px;
+  height: 125px;
+}
+
+.movie-item span {
+  padding-top: 3px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.movie-poster {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 128px;
+}

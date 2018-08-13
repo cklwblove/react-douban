@@ -1,0 +1,25 @@
+.page-search {
+  padding-bottom: 50px;
+}
+
+.page-search .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.page-search .search {
+  width: 100%;
+  padding: 15px 20px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+}
+
+.page-search .search-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  text-align: center;
+}
